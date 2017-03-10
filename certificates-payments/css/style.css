@@ -1,0 +1,130 @@
+
+/* Basic certificates payments table CSS styles */ 
+/* @author Lyudmila Rusakova */   
+	
+#tbl1 {display: block;}
+#tbl2, #tbl3 {display: none;}
+
+#certs-table th, #certs-table td {
+	border-right-color: #dfdfdf;
+	border-right-width: 1px;
+}
+
+.tab { 
+	display: inline; 
+	float: left;
+	padding: 5px 10px;
+	cursor: pointer;
+	-webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	color: #dfdfdf;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.tab  a {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.tab.active {
+	background: #f1f1f1;
+	border-bottom: none;
+}
+
+.tab.active a {
+	text-shadow: 0 -1px 0 #fff;
+	color: #333;
+}
+
+#post-status h2 {
+	margin-bottom: 20px;
+}
+
+#save-status {
+	background-color: #21759b;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#2a95c5),to(#21759b));
+	background-image: -webkit-linear-gradient(top,#2a95c5,#21759b);
+	background-image: -moz-linear-gradient(top,#2a95c5,#21759b);
+	background-image: -ms-linear-gradient(top,#2a95c5,#21759b);
+	background-image: -o-linear-gradient(top,#2a95c5,#21759b);
+	background-image: linear-gradient(to bottom,#2a95c5,#21759b);
+	border-color: #21759b;
+	border-bottom-color: #1e6a8d;
+	-webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,0.5);
+	box-shadow: inset 0 1px 0 rgba(120,200,230,0.5);
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-border-radius: 3px;
+	-webkit-appearance: none;
+	border-radius: 3px;
+	white-space: nowrap;
+	height: 30px;
+	padding: 0 12px 2px;
+	margin-top: 20px;
+}
+
+#save-status:hover {
+	background-color: #278ab7;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#2e9fd2),to(#21759b));
+	background-image: -webkit-linear-gradient(top,#2e9fd2,#21759b);
+	background-image: -moz-linear-gradient(top,#2e9fd2,#21759b);
+	background-image: -ms-linear-gradient(top,#2e9fd2,#21759b);
+	background-image: -o-linear-gradient(top,#2e9fd2,#21759b);
+	background-image: linear-gradient(to bottom,#2e9fd2,#21759b);
+	border-color: #1b607f;
+	-webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,0.6);
+	box-shadow: inset 0 1px 0 rgba(120,200,230,0.6);
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+}
+
+.status-names {
+	color: #21759b;
+	font-weight: bold;
+}
+
+.status-names-list span {
+	color: #d54e21;
+}
+
+.certs-table th {
+	background: transparent url(/wp-content/plugins/certificates-payments/img/arrows.png) no-repeat right -123px !important;
+	cursor: pointer;
+}
+
+.certs-table th.headerSortUp  {
+	background: transparent url(/wp-content/plugins/certificates-payments/img/arrows.png) no-repeat right 7px !important;
+}
+
+.certs-table th.headerSortDown  {
+	background: transparent url(/wp-content/plugins/certificates-payments/img/arrows.png) no-repeat right -22px !important;
+}
+
+.certs-table td, .certs-table th  {
+	border-right-color: #dfdfdf;
+	border-right-width: 1px;
+}
+
+.certs-table td {
+	padding: 10px;
+}
+
+.certs-table td.status-name {
+	font-size: 8px;
+	color: #fcfcfc;
+}
+
+.certs-table td input {
+	width: 70px;
+	float: left;
+	font-size: 12px;
+}
